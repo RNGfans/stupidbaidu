@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html>
+ 
+   <head>
+      
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+      <title>制作我的百度一下，One echo知道</title>
+
+ <style type="text/css">
+.Top{position:absolute;right:0px;top:0px;}
+a{background:#0099FF;color:#FFFFFF;}
+input[type="text"]{border:1px solid #0099FF;height:35px;width:520px;}
+input[type="submit"]{border:1px solid #0099FF;height:36px;width:75px;background:#0099FF;font-size:15px;color:#FFFFFF;position:relative;right:5px;}
+.imgBaidu{text-align:center;}
+.Baidu{text-align:center;}
+.imgBaidu img{width:270px;height:130px;}
+.Bottom{text-align:center;font-size:12px;color:#CCCCCC;position:relative;top:483px;}
+</style>  
+ </head>
+   
+ <body>
+
+<div class="Top"><strong><u>News</u>&nbsp;&nbsp;<u>hao123</u>&nbsp;&nbsp;<u>Map</u>&nbsp;&nbsp;
+<u>Video</u>&nbsp;&nbsp;<u>Tieba.Baidu</u>&nbsp;&nbsp;<u>Learning</u></strong>&nbsp;&nbsp;
+<u>Login</u>&nbsp;&nbsp;<u>Install</u>&nbsp;&nbsp;&nbsp;<a>More Produtcts</a></div>
+ <div class="imgBaidu"><img src="Baidu.png" alt="Baidu" title="Baidu"></div>       
+<form method="post" action="save.php">
+       
+<div class="Baidu"><input type="text" value="" name="Baidu"/>
+       
+<input type="submit" value="Baidu" name="One echo"/>
+ </div>
+<div class="Bottom"><u>Homepage</u>&nbsp;&nbsp;2017 Baidu&nbsp;<u>Read Before Using Baidu</u>&nbsp;<u>Feedback</u>&nbsp;
+Beijing ICP License Number 030173</div>
+<div class="Bottom">Beijing Public Security No.11000002000001</div>    
+</form>
+    
+</body>
+
+</html>
